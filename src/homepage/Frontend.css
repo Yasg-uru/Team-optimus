@@ -1,0 +1,295 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+  }
+  
+  /* Default styles */
+  .content-section {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("D:\3rd hackoverflow\hack overflow\frontend\src\components\image\backgroundimage.png");
+    background-position: center;
+    padding: 100px 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .content-text {
+    width: 100%;
+    max-width: 436px;
+    margin: 0 50px;
+  }
+  
+  .content-text h1 {
+    font-size: 36px;
+  }
+  
+  .content-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #070907f7;
+    color: #e0d3e2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .explore-button:hover {
+    background-color: #a17474;
+    color: black;
+  }
+  
+  .image-section {
+    flex: 1;
+  }
+  
+  .text-section {
+    border: 2px solid black;
+    width: 100vw;
+    height: 78vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    background-image: url('D:\3rd hackoverflow\hack overflow\frontend\src\components\image\section.png');
+    background-repeat: no-repeat;
+  }
+  
+  .para1 {
+  
+    height: 62vh;
+    width: 49vw;
+    margin-left: 819px;
+    padding: 3px 262px
+  }
+  
+  
+  
+  .p-2 {
+    color: red;
+    font-size: 20px;
+  }
+  
+  .p-1 {
+    color: black;
+    font-size: 20px;
+  }
+  
+  .btn {
+    background-color: red;
+    border: 2px solid red;
+  
+  }
+  
+  
+  
+  .text-section2 {
+    border: 2px solid black;
+    width: 100vw;
+    height: 78vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+  
+    background-repeat: no-repeat;
+  }
+  
+  
+  .box1 {
+  
+    height: 151px;
+  
+    width: 131px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box2 {
+    height: 151px;
+  
+    width: 131px;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  
+  
+  .boxx {
+    border: 2px solid blue;
+  }
+  
+  .text-section2 {
+    margin-top: 20px;
+    /* Adjust as needed */
+    text-align: center;
+  }
+  
+  .box1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* Distribute space evenly between boxes */
+  }
+  
+  .boxx {
+    height: 174px;
+    width: 233px;
+    flex: 6;
+    font-size: 17px;
+    margin: 12px 87px;
+    background-color: #030404;
+    color: white;
+    padding: 54px 66px;
+    border-radius: 8px
+  }
+  
+  
+  .boxx1 {
+    height: 174px;
+    width: 233px;
+    flex: 6;
+    font-size: 17px;
+    margin: 12px 87px;
+    background-color: #030404;
+    color: white;
+    padding: 54px 66px;
+    border-radius: 8px;
+  }
+  
+  .boxx2 {
+    height: 174px;
+    width: 233px;
+    flex: 6;
+    font-size: 17px;
+    margin: 12px 87px;
+    background-color: #030404;
+    color: white;
+    padding: 54px 66px;
+    border-radius: 8px
+  }
+  
+  .boxx3 {
+    height: 174px;
+    width: 233px;
+    flex: 6;
+    font-size: 17px;
+    margin: 12px 87px;
+    background-color: #030404;
+    color: white;
+    padding: 54px 66px;
+    border-radius: 8px
+  }
+  
+  
+  .boxx4 {
+    height: 174px;
+    width: 233px;
+    flex: 6;
+    font-size: 17px;
+    margin: 12px 87px;
+    background-color: #030404;
+    color: white;
+    padding: 54px 66px;
+    border-radius: 8px
+  }
+  
+  
+  .boxx5 {
+    height: 174px;
+    width: 233px;
+    flex: 6;
+    font-size: 17px;
+    margin: 12px 87px;
+    background-color: #030404;
+    color: white;
+    padding: 54px 66px;
+    border-radius: 8px
+  }
+  
+  .boxx6 {
+    height: 174px;
+    width: 233px;
+    flex: 6;
+    font-size: 17px;
+    margin: 12px 87px;
+    background-color: #030404;
+    color: white;
+    padding: 54px 66px;
+    border-radius: 8px
+  }
+  
+  .boxx7 {
+    height: 174px;
+    width: 211px;
+    flex: 6;
+    font-size: 17px;
+    margin: 12px 87px;
+    background-color: #030404;
+    color: white;
+    padding: 54px 66px;
+    border-radius: 8px
+  }
+  
+  .boxx8 {
+    height: 174px;
+    width: 213px;
+    flex: 6;
+    font-size: 17px;
+    margin: 12px 87px;
+    background-color: #030404;
+    color: white;
+    padding: 54px 66px;
+    border-radius: 8px
+  }
+  
+  
+  .boxxx {
+    margin-top: 89px;
+    border: 2px solid black;
+    width: 98vw;
+    height: 100vh;
+    background-color: white;
+    
+    padding: 20px;
+    border-radius: 8px;
+    background-image: url("D:\3rd hackoverflow\hack overflow\frontend\src\components\image\lastimg.png");
+    background-repeat: no-repeat;
+  }
+  
+  
+  
+  
+  /* Media Queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .content-section {
+      padding: 80px 20px;
+      /* Adjusted padding for smaller screens */
+    }
+  
+    .content-text {
+      width: 100%;
+      /* Take full width */
+      padding: 0 20px;
+      /* Added padding for better spacing */
+    }
+  
+    .content-text h1 {
+      font-size: 30px;
+      /* Adjusted font size for smaller screens */
+    }
+  
+    .content-text p {
+      font-size: 16px;
+      /* Adjusted font size for smaller screens */
+    }
+  }
